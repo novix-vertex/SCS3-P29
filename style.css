@@ -30,6 +30,7 @@ h2{
     flex:1;
 }
 form {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,17 +41,17 @@ form {
 input {
     padding: 0.5rem;
     width: 100%;
-    max-width: 800px;
+    max-width: 700px;
     border: none;
 }
 
 ul {
     list-style: none;
     width: 100%;
-    max-width: 800px;
-    display:flex;
+    max-width: 700px;
+    display: flex;
     flex-direction: column;
-    gap:0.5rem;
+    gap: 0.5rem;
 }
 
 li {
@@ -59,7 +60,7 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap:1rem;
+    gap: 1rem;
 }
 
 .btns {
