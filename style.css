@@ -25,7 +25,10 @@ main {
 h1 {
     margin-bottom: 2rem;
 }
-
+h2{
+    font-size: 1rem;
+    flex:1;
+}
 form {
     display: flex;
     align-items: center;
@@ -37,14 +40,14 @@ form {
 input {
     padding: 0.5rem;
     width: 100%;
-    max-width: 500px;
+    max-width: 800px;
     border: none;
 }
 
 ul {
     list-style: none;
     width: 100%;
-    max-width: 500px;
+    max-width: 800px;
     display:flex;
     flex-direction: column;
     gap:0.5rem;
