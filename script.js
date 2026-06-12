@@ -60,7 +60,9 @@ addBtn.addEventListener("click", (e) => {
     });
 
     deleteBtn.addEventListener("click", () => {
-        li.remove();
+        if (confirm("Are you sure, you want to delete this task?")) {
+            li.remove();
+        }
     });
 
     input.value = "";
