@@ -46,12 +46,14 @@ ul {
     list-style: none;
     width: 100%;
     max-width: 500px;
+    display:flex;
+    flex-direction: column;
+    gap:0.5rem;
 }
 
 li {
     background: #424242;
     padding: 1rem;
-    margin-bottom: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,6 +70,10 @@ button {
     border: none;
     padding: 0.5rem 1rem;
     cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.95);
 }
 
 .add-btn {
